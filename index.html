@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div id="header-left">
+            <div id="date-time">Date & Time</div>
+        </div>
+        <div class="center-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div id="header-right">
+            <img src="bluetooth.png" alt="Bluetooth" class="icon">
+            <div class="device-name">Dhananjay's iPhone</div>
+            <img src="battery.png" alt="Battery" class="icon">
+        </div>
+    </header>
+
+    <div class="mode-toggle">
+        <div class="mode-circle"></div>
+        <div class="mode-text">Eco Mode</div>
+    </div>
+
+    <div class="circles">
+        <div class="circle" id="circle1">
+          <p>20%</p>
+          <p class="small-text">Remaining</p>
+          <p class="tagline">Battery</p>
+        </div>
+        <div class="circle" id="circle2">
+          <p>50KM</p>
+          <p class="small-text">Current Speed</p>
+          <p class="tagline">Speed</p>
+        </div>
+        <div class="circle" id="circle3">
+          <p>37C</p>
+          <p class="small-text">Sunny</p>
+          <p class="tagline">Wheather</p>
+        </div>
+      </div>
+
+    <div class="text-boxes">
+        <div class="text-box">
+            <div class="line-small">Estimated Distance</div>
+            <div class="line-large">120 KM</div>
+        </div>
+        <div class="text-box">
+            <div class="line-small">Next Power Station</div>
+            <div class="line-large">New York (80 KM)</div>
+        </div>
+        <div class="text-box">
+            <div class="line-small">Average Speed</div>
+            <div class="line-large">150 Km/Hr</div>
+        </div>
+        <div class="text-box">
+            <div class="line-small">Average Consumption</div>
+            <div class="line-large">60 kWh</div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="icon-box" onclick="window.location.href='index.html';">
+            <img src="home.png" alt="Home">
+        </div>
+        <div class="icon-box" onclick="window.location.href='music.html';">
+            <img src="music.png" alt="Music">
+        </div>
+        <div class="icon-box" onclick="window.location.href='navigation.html';">
+            <img src="navigation.png" alt="Navigation">
+        </div>
+        <div class="icon-box" onclick="window.location.href='call.html';">
+            <img src="call.png" alt="Call">
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
